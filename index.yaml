@@ -3,7 +3,17 @@ entries:
   torrent-bot-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-14T00:15:04.9422285+03:00"
+    created: "2022-08-14T00:22:56.3995569+03:00"
+    description: A Helm chart for Kubernetes
+    digest: f2733d65106c58c4a45953a28f5737649afbddb119e17c1811231d3fc6ad7995
+    name: torrent-bot-helm
+    type: application
+    urls:
+    - torrent-bot-helm-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-14T00:22:56.3981859+03:00"
     description: A Helm chart for Kubernetes
     digest: 391b1f77250b0d14f8b5e97938826d7220bc568ddafeceee2da002bae26c8925
     name: torrent-bot-helm
@@ -13,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-14T00:15:04.9415157+03:00"
+    created: "2022-08-14T00:22:56.3973159+03:00"
     description: A Helm chart for Kubernetes
     digest: edac8b42dc4068c5db6b33200fb7a105e04e733e211e918411e432332fe9a2e9
     name: torrent-bot-helm
@@ -21,4 +31,4 @@ entries:
     urls:
     - torrent-bot-helm-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-14T00:15:04.9407926+03:00"
+generated: "2022-08-14T00:22:56.3961265+03:00"
