@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: torrentbot-configs
+  labels:
+    {{- include "torrentBotHelm.labels" . | nindent 4 }}
+data:
+  # property-like keys; each key maps to a simple value
+  folder: {{- toYaml .Values.folder | nindent 8 }}
+
+
