@@ -68,7 +68,7 @@ spec:
       volumes:
         - name: file-path
           hostPath: 
-          path: {{ .Values.folder }}
+            path: {{ .Values.folder }}
 
       {{- with .Values.nodeSelector }}
       nodeSelector:
